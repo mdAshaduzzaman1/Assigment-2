@@ -1,0 +1,351 @@
+/* ...........................................google font............................. */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+    padding: 0px 100px;
+}
+
+/*................................. header section ...............................*/
+p{
+    color: #727272;
+}
+
+    
+
+.header{
+    display: flex;
+    flex-direction: column;
+   
+}
+ 
+.container1{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 0px 100px;
+}
+.container2{
+    padding: 90px 110px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    
+}
+.container3-texts{
+    margin: 50px 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-bottom: 70px;
+   
+}
+.nav-options ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 26px;
+    list-style-type: none;
+}
+
+/* -------------------------------------------------------banner section ------------------------------------------------------*/
+
+samp{
+    font-weight: 700;
+    font-size: 35px;
+    color: #FF900E;
+}
+
+.hero{
+text-align: center;
+padding: 0 30px;
+
+}
+.hero-img{
+    margin-top: 50px;
+    width: 100%;
+}
+.hero-title{
+    margin-top: 0;
+}
+.banner{
+    width: 1100px;
+   
+    margin-left: 0px;
+}
+.container2 .images img{
+    height: 243px;
+    width: 243px;
+}
+.images{
+    width: 100%;
+}
+.btn-primary{
+    width: 170px;
+    height: 64px;
+    background: #FF900E;
+    color: #ffff;
+    border-radius: 8px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: rgba(43, 161, 161, 0.897);
+}
+
+/* -----------------------------------------------features sections-------------------------------------------------- */
+
+
+
+.container3{
+    position: relative;
+    padding: 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 34px;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+
+.container3 img{
+    width: 530px;
+    height: 982px;
+    margin-top: 20%;
+}
+.container3-texts div{
+    width: 520px;
+    height: 150px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px #0000000F;
+    padding-top: 4%;
+    gap: 10px;
+}
+.exprience{
+    position: absolute;
+    width: 242px;
+    height: 180px;
+    background: #FF900E;
+    border-radius: 15px;
+    text-align: center;
+    right: 35%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+
+/*........................  Facts section css..........................*/
+
+
+.fact-text{
+    text-align: left;
+    padding-right: 50%;
+}
+
+.container4{
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+.box{
+    height: 50px;
+    width: 13px;
+    border: 1px solid yellow;
+    text-align: center;
+    align-items: center;
+    height: 169px;
+    width: 225px;
+    padding-top: 15%;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 10%;
+    margin-left: 1%;
+    gap: 50px;
+
+}
+
+
+/*....................................... sponsors section css...............................*/
+
+
+
+.container5{
+    padding: 60px 100px;
+    margin-bottom: 70px;
+}
+.sponsors-text{
+    text-align: center;
+   
+}
+.sponsors-logo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 5%;
+    
+   
+}
+.containerx{
+    padding: 60px 100px;
+    background-color: antiquewhite;
+    margin-top: 30px;
+}
+.containerx-details{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+}
+.form-container{
+    display: flex;
+    flex-direction:column ;
+    gap: 8px;
+}
+
+
+
+/*............................................ animetion ....................................*/
+
+
+
+.logo1:hover{
+    transform: rotate(20deg);
+}
+.logo2:hover{
+    transform: skewY(20deg);
+}
+.logo3:hover{
+    transform: scaleY(1.5)
+}
+.logo4{
+   
+    border: 0px solid green;
+    background-color: #fff;
+    
+    text-align: center;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.logo4:hover{
+    -webkit-transform: translate(3em, 0);
+    -moz-transform: translate(3em, 0);
+    -o-transform: translate(3em, 0);
+    -ms-transform: translate(3em, 0);
+    transform: translate(3em, 0);
+
+}
+.logo5:hover{
+    transform: scaleY(1.5)
+}
+
+
+/* ...........................................footer section...............................................*/
+
+
+
+footer
+{
+    text-align: center;
+    margin-bottom: 14%;
+    background: rgba(255, 144, 14, 0.1);
+    height: 60px;
+    width: 80%;
+    margin-left: 110px;
+    border-radius: 17px;
+    padding: 5%;
+}
+.input{
+    padding: 10px 10px;
+    width: 50%;
+    border-radius: 10px;
+    border: 0% solid transparent;
+    background-color: whitesmoke;
+}
+::placeholder{
+    color: red;
+  
+}
+.input:focus {
+    color: black;
+  }
+
+
+
+
+/* ......................................responsive css........................................... */
+
+
+
+@media screen and (max-width: 575px) {
+   header{
+    margin-bottom: 60px ;
+   }
+   header .navber{
+    display: initial;
+    position: absolute;
+    }
+    .container1, .container2, .container3, .container4, .container5{
+        padding: 0 0 0 0;
+    }
+    .banner{
+        width: 100%;
+    
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .images{
+        grid-template-columns: repeat(1,100%);
+    }
+    .images img{
+        padding: 5px 5px;
+    }
+    .container3{
+        grid-template-columns: repeat(1,100%);
+        text-align: 100%;
+    }
+    .container3-texts div{
+        width: 100%;
+    }
+    .container3 img{
+        width: 117%;
+        
+    }
+    .container4 h1 p{
+        text-align: center;
+    }
+    .container5{
+        padding-top: 30px;
+    }
+    .sponsors-logo img{
+        margin-top: 50px;
+        padding: 20px 20px;
+    }
+    .icons{
+        grid-template-columns: repeat(1, 100%);
+
+    }
+    .sponsors-logo{
+        grid-template-columns: repeat(1, 100%);
+        gap: 80px;
+        margin-left: 10%;
+        
+    }
+    .containerx-details{
+        grid-template-columns: repeat(1,100%);
+    }
+    .input{
+        width: 130px;
+    }
+    footer{
+        height: 100px;
+        margin-left: 50px;
+    }
+}
